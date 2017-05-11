@@ -1,0 +1,57 @@
+# Site settings
+title: "La Bergerie de Mely"
+email: labergerydemely@orange.fr
+description: 
+
+baseurl: ""
+url: "labergerydemely.fr"
+github_username: La Bergerie de Mely
+
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
+defaults:
+  - scope:
+      path: "assets/images/articles"
+    values:
+      articles: true
+  - scope:
+      path: "assets/images/amenagements"
+    values:
+      amenagements: true
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugin: jekyll-assets
+assets:
+  sources:
+    - assets/js
+    - assets/css
+    - assets/images
+    - assets/fonts
+    - _sass
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]
+  compress:
+    css: true
+    js: true
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-assets
