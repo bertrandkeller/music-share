@@ -28,6 +28,8 @@ Le web est caractérisé par le protocile http (Hyper text transfert protocole).
   - Les images :: XnConvert => Images homogènes et légères
   - Les vidéos :: Handbrake => Vidéo pour la diffusion sur le web
 
+Ressource ![Documents exemple à reformater](https://bertrandkeller.github.io/music-share/documents.zip)
+
 ### Les fichiers
 
 *Exemple classique*
