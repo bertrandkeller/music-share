@@ -17,26 +17,35 @@ title: Accueil
       </audio>
       {% endif %}
     {% endfor %}
+
     <div class="gallery">
       <h2 id="illustrations">Illustrations</h2>
-    <div class="grid">
-    {% for image in site.static_files %}
-      {% if image.path contains 'documents/images' %}
-        <figure><img src="{{ image.path }}" type="audio/mp3" /><br></figure>
-      {% endif %}
-    {% endfor %}
+      <div class="grid">
+      {% for image in site.static_files %}
+        {% if image.path contains 'documents/images' %}
+          <figure><img src="{{ image.path }}" type="audio/mp3" /><br></figure>
+        {% endif %}
+      {% endfor %}
+      </div>
     </div>
-    </div>
+
     <div class="gallery">
       <h2 id="videos">Vidéos</h2>
-    <div class="grid">
+      <div class="grid">
+      {% for image in site.static_files %}
+        {% if image.path contains 'documents/videos' %}
+        <div><video controls src="{{ image.path }}"></video></div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+
+    <h2 id="textes">Textes</h2>
     {% for image in site.static_files %}
-      {% if image.path contains 'documents/videos' %}
-      <div><video controls src="{{ image.path }}"></video></div>
+      {% if image.path contains 'documents/textes' %}
+      <p><a href="{{ image.path }}">{{ image.basename }}</a></p>
       {% endif %}
     {% endfor %}
-    </div>
-    </div>
 
   </div>
 
