@@ -8,6 +8,8 @@ title: Plan du cours
   1. Savoir Formater du contenu destiné à la publication sur le web
   2. Utiliser des outils collaboratifs pour dialoguer dans un groupe
 
+Ressource <a href="https://bertrandkeller.github.io/music-share/documents.zip">Documents exemple à reformater</a>
+
 ## 1. Le web
 
   > Le World Wide Web (WWW), littéralement la « toile (d’araignée) mondiale » communément appelé le Web, et parfois la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles  
@@ -27,8 +29,6 @@ Le web est caractérisé par le protocile http (Hyper text transfert protocole).
   - Les textes :: Mu, IaWriter, Macdown, TexteEdit => Editer du texte en Markdown
   - Les images :: XnConvert => Images homogènes et légères
   - Les vidéos :: Handbrake => Vidéo pour la diffusion sur le web
-
-Ressource ![Documents exemple à reformater](https://bertrandkeller.github.io/music-share/documents.zip)
 
 ### Les fichiers
 
