@@ -22,6 +22,12 @@ main {
   padding-bottom: $base-line*2;
 }
 
+blockquote {
+  padding: $base-line;
+  background: #f1f1f1;
+  font-style: italic;
+}
+
 // Header and footer
 .site-header,
 .site-footer {
@@ -114,7 +120,7 @@ section, footer {
   margin: $base-line*4 0;
   figure, video {
     position: relative;
-    max-height: 16rem;
+    max-height: 20rem;
     width: 100%;
     &:nth-child(even) {
       figcaption {

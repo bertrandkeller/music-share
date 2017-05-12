@@ -13,15 +13,16 @@
     <div class="site-logo">
       <a class="site-title" href="{{ site.baseurl }}/">Music Share</a>
     </div>
-
+    {% if page.title == "Accueil" %}
     <nav class="nav-main" role="navigation">
       <ul>
-        <li><a class="page-link" href="#morceaux">Morceaux</a></li>
-        <li><a class="page-link" href="#illustrations">Illustrations</a></li>
-        <li><a class="page-link" href="#videos">Vidéos</a></li>
         <li><a class="page-link" href="#textes">Textes</a></li>
+        <li><a class="page-link" href="#illustrations">Illustrations</a></li>
+        <li><a class="page-link" href="#morceaux">Morceaux</a></li>
+        <li><a class="page-link" href="#videos">Vidéos</a></li>
       </ul>
     </nav>
+    {% endif %}
 
   </div>
 
