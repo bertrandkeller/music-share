@@ -41,7 +41,7 @@ title: Accueil
       <div class="grid">
       {% for image in site.static_files %}
         {% if image.path contains 'documents/videos' %}
-        <div><video controls src="{{ image.path }}"></video></div>
+        <div><video controls src="{{ site.url }}{{ image.path }}"></video></div>
         {% endif %}
       {% endfor %}
       </div>
