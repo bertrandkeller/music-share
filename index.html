@@ -20,7 +20,7 @@ title: Accueil
       <div class="grid">
       {% for image in site.static_files %}
         {% if image.path contains 'documents/images' %}
-          <figure><a href="{{ site.url }}{{ image.path }}"><img src="{{ image.path }}" type="audio/mp3" /><figcaption>{{ image.basename  | replace: '_', ' ' | replace: '-', ' '}}</figcaption></a></figure>
+          <figure><a href="{{ site.url }}{{ image.path }}"><img src="{{ site.url }}{{ image.path }}" type="audio/mp3" /><figcaption>{{ image.basename  | replace: '_', ' ' | replace: '-', ' '}}</figcaption></a></figure>
         {% endif %}
       {% endfor %}
       </div>
