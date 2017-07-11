@@ -48,7 +48,7 @@ Le web est caractérisé par le protocile http (Hyper text transfert protocole).
     |-- texte-repet-v2.2-final.avi
 ```
 
-*Exemple d'arboresence rangée*
+*Exemple d'arborescence rangée*
 
 ```
 |-- Documents
