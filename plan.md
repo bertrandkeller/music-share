@@ -28,7 +28,7 @@ Le web est caractérisé par le protocile http (Hyper text transfert protocole).
   - Les fichiers :: Better Finder Rename => Renommage de fichiers par lots
   - Les textes :: Mu, IaWriter, Macdown, TexteEdit => Editer du texte en Markdown
   - Les images :: XnConvert => Images homogènes et légères
-  - Les vidéos :: Handbrake => Vidéo pour la diffusion sur le web
+  - Les vidéos :: Handbrakebatch => Vidéo pour la diffusion sur le web
 
 ### Les fichiers
 
