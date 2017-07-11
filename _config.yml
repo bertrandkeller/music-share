@@ -1,11 +1,11 @@
 # Site settings
-title: "La Bergerie de Mely"
-email: labergerydemely@orange.fr
+title: "Music Share"
+email: 
 description: 
 
 baseurl: ""
-url: "labergerydemely.fr"
-github_username: La Bergerie de Mely
+url: "https://bertrandkeller.github.io/music-share/"
+github_username: bertrandkeller
 
 
 # Build settings
@@ -17,15 +17,6 @@ kramdown:
   # Disable auto-generated ID's for headings
   auto_ids: false
 
-defaults:
-  - scope:
-      path: "assets/images/articles"
-    values:
-      articles: true
-  - scope:
-      path: "assets/images/amenagements"
-    values:
-      amenagements: true
 
 # HTML Compression
 compress_html:
