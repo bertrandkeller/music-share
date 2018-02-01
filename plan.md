@@ -113,11 +113,20 @@ Les images sont insérées dans une page web par l'appel à une ressource extern
 
 Chaque appel à une image sur une page web représente un appel HTTP et un coût en temps de chargement correspondant au poids de l'image. Plus une image est lourde plus le temps de chargement d'une page est long. Une page web ne doit pas exéder idéalement 1Mb.
 
+### Les audios
+
+Les contenus audios sont beaucoup consommés sur le webs sous forme de musique. Néanmoins, ils ne sont pas assez utlisé au regard de la consommation de vidéos.
+
+Il est possible de mettre en ligne de fichier assez long et pourtant très léger (pour de la voix ou un besoin qualitatif réduit).
+
+Il existe des plateformes d'enregistrement ou de diffusion de podcasts.
+https://www.spreaker.com/
+
 ### Les vidéos
 
 Les vidéos sont des contenus extrêmement consultées sur le web (Chaîne Youtube…). Cependant ce qu'on oublie de signaler c'est que le poids important des vidéos qui n'a rien à voir avec celui des textes (hyper léger) et des images (qui peuvent être optimisées et mises en caches).
 
-Une vidéo "streamée" est téléchargée par le navigateur pour être lu par l'appareil. Il n'y a pas de lecture à distance d'un fichier en ligne. Celà affecte donc énormémement la bande passante. C'est directement lié à la taille en octet du fichier.
+Une vidéo "streamée" est téléchargée par le navigateur pour être lue par l'appareil. Il n'y a pas de lecture à distance d'un fichier en ligne. Celà affecte donc énormémement la bande passante. C'est directement lié à la taille en octet du fichier.
 
 **Comme pour l'image, on procède à un appel à une ressource externe.**
 
