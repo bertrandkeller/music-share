@@ -15,7 +15,7 @@ Ressource <a href="https://bertrandkeller.github.io/music-share/documents.zip">D
   > Le World Wide Web (WWW), littéralement la « toile (d’araignée) mondiale » communément appelé le Web, et parfois la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles  
   **-Wikipedia-**
 
-Le web est caractérisé par le protocile http (Hyper text transfert protocole). Une URL (pour Uniform Resource Locator, signifiant littéralement « localisateur de ressource uniforme ») est une chaîne de caractères décrivant l’emplacement d’une ressource.
+Le web est caractérisé par le protocole http (Hyper text transfert protocole). Une URL (pour Uniform Resource Locator, signifiant littéralement « localisateur de ressource uniforme ») est une chaîne de caractères décrivant l’emplacement d’une ressource.
 
 > Tout est ressource et possède une url.
 
