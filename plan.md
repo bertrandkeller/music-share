@@ -25,9 +25,10 @@ Le web est caractérisé par le protocile http (Hyper text transfert protocole).
 
 ## 2. Formater des contenus web
 
-  - Les fichiers :: Better Finder Rename => Renommage de fichiers par lots
+  - Les fichiers :: Better Finder Rename, ReNamer => Renommage de fichiers par lots
   - Les textes :: Mu, IaWriter, Macdown, TexteEdit => Editer du texte en Markdown
-  - Les images :: XnConvert => Images homogènes et légères
+  - Les images :: XnConvert, ImageResizer for Windows, Radical Image Optimization Tool, https://tinypng.com/ => Images homogènes et légères
+  - Les audios :: https://www.aconvert.com/audio/ => fichiers audios léger à charger
   - Les vidéos :: Handbrakebatch => Vidéo pour la diffusion sur le web
 
 ### Les fichiers
