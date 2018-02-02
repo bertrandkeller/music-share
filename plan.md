@@ -113,6 +113,9 @@ Les images sont insérées dans une page web par l'appel à une ressource extern
 
 Chaque appel à une image sur une page web représente un appel HTTP et un coût en temps de chargement correspondant au poids de l'image. Plus une image est lourde plus le temps de chargement d'une page est long. Une page web ne doit pas exéder idéalement 1Mb.
 
+Voici un exemple de code pour gérer l'affichage d’une image adaptée pour différentes tailles d'écrans. On charge un image de résolution différente en fonction de la dimension de l'écran. 
+`<img src="default.png" srcset="small.png 320w, medium.png 640w, large.png 1024w, xl.png 1920w" sizes="(min-width:20em) and (max-width:50em) 20em, (min-width:50em) and (max-width:80em) 40em, (min-width:40em) 10em" alt="Test" />`
+
 ### Les audios
 
 Les contenus audios sont beaucoup consommés sur le webs sous forme de musique. Néanmoins, ils ne sont pas assez utlisé au regard de la consommation de vidéos.
@@ -121,6 +124,12 @@ Il est possible de mettre en ligne de fichier assez long et pourtant très lége
 
 Il existe des plateformes d'enregistrement ou de diffusion de podcasts.
 https://www.spreaker.com/
+
+`<audio controls="">`
+  `<source src="toto.opus" type="audio/ogg; codecs=opus"/>`
+  `<source src="toto.ogg" type="audio/ogg; codecs=vorbis"/>`
+ `<source src="toto.mp3" type="audio/mpeg"/>`
+`</audio>`
 
 ### Les vidéos
 
