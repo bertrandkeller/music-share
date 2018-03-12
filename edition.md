@@ -5,8 +5,8 @@ title: Édition et partage de fichiers
 
 ## Édition
 
-**Texte**
-https://framapad.org
+### Textes
+1. [https://framapad.org](https://framapad.org)
 
 Éditeur collaboratif de texte, ce logiciel permet de partager un texte en ligne en le mettant à disposition d'un groupe de personne.
 
@@ -14,18 +14,18 @@ Chaque contributeur est signalé par une couleur différente ; ainsi, il est pos
 
 Le document peut être séparé en plusieurs partie qui seront dédiée à une personne ou un groupe de personnes.
 
-**Musique**
-https://www.audacityteam.org
-https://www.ocenaudio.com
-https://framalibre.org/content/ardour
+### Musiques
+1. [https://www.audacityteam.org](https://www.audacityteam.org)
+2. [https://www.ocenaudio.com](https://www.ocenaudio.com)
+3. [https://framalibre.org/content/ardour](https://framalibre.org/content/ardour)
 
 Il existe plusieurs manières d'éditer de la musique. Soit simplement faire du traitement d'une piste son, soit composer des morceaux à partir de samples.
 
 Audacity est le logiciel le plus connu pour du traitement de bandes sons, il en existe d'autres qui permettent simplement de : couper le début et la fin d'une piste, égaliser, enlever du bruit ambient…
 
-**Vidéo**
-https://www.openshot.org/
-https://framalibre.org/content/natron
+### Vidéos
+1. [https://www.openshot.org/](https://www.openshot.org/)
+2. [https://framalibre.org/content/natron](https://framalibre.org/content/natron)
 
 Pour optimiser rendre plus agréable la lecture d’une vidéo, il peut être opportun de la traiter en ajoutant des fondus en début et fin, superposer un texte, joindre 2 séquences…
 
@@ -35,10 +35,10 @@ A savoir que par défaut, un logiciel de vidéo enregistre et charge des projets
 
 Il faut comprendre qu’il faut importer une vidéo, puis exporter le projet sous forme de vidéo.
 
-Ensuite, on pourra recompresser la vidéo final avec Handbrakebatch.
+Ensuite, on pourra recompresser la vidéo finale avec Handbrakebatch.
 
-**Sondage**
-https://framaforms.org
+### Sondages
+1. [https://framaforms.org](https://framaforms.org)
 
 Pour la communication avec un groupe de personne ou des élèves, on peut être amené à leur poser des questions pour avoir un retour sur une activité.
 
@@ -46,11 +46,11 @@ Framaforms permet d'envoyer des sondages en ligne afin d'en récolter les résul
 
 ## Partager
 
-**Fichiers :**
-https://framadrop.org
-https://framalibre.org/content/lufi
-https://framadrive.org/ (en développement)
-https://framalibre.org/content/syncthing
+### Fichiers :
+1. [https://framadrop.org](https://framadrop.org)
+2. [https://framalibre.org/content/lufi](https://framalibre.org/content/lufi)
+3. [https://framadrive.org/ (en développement)](https://framadrive.org/ (en développement))
+4. [https://framalibre.org/content/syncthing](https://framalibre.org/content/syncthing)
 
 
 *Framedrop* et *Lufi* sont des interfaces permettant de partager des fichiers. On envoie un fichier sur la page et celle-ci nous rendra une adresse web (URl).
@@ -61,13 +61,13 @@ On peut ainsi insérer une ou plusieurs URL dans une document *Framapad*. Le *Fr
 
 *Framadrive* est une alternative à *Google Drive*, mais le logiciel est en cours de développement. Le plus gros problème étant l'espace de stockage alloué. *Syncthing* est un peu plus compliqué à utiliser ; il permet sur une machine de lancer un serveur qui va offrir la possibilité de partager des documents avec : une autre personne ou un autre périphérique.
 
-**Images**
-https://framapic.org/#
+### Images
+1. [https://framapic.org/#](https://framapic.org/#)
 
-Cette interface est quasi identique *framadrop*, il permet de partager spécifiquement des images et donc des galleries d’images.
+Cet interface est quasi identique *framadrop*, il permet de partager spécifiquement des images et donc des galleries d’images.
 
-**Musique**
-https://framalibre.org/content/ferment
+### Musiques
+1. [https://framalibre.org/content/ferment](https://framalibre.org/content/ferment)
 
 Ferment est un logiciel de partage de musique de Pair-à-Pair, c'est-à-dire directement entre des machines (sans passer par un serveur central).
 
@@ -75,8 +75,8 @@ L’interface permet de créer un flux de pistes audios auquel des personnes peu
 
 Ce système est dédié à du travail collaboratif, les musiques misent en ligne doivent respecter le droit d'auteur de la piste.
 
-**Site web**
-https://frama.site
+### Site web
+1. [https://frama.site](https://frama.site)
 
 Ce service permet de créer différents types de sites web :
 
