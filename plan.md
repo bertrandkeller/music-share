@@ -12,7 +12,7 @@ Ressource <a href="https://bertrandkeller.github.io/music-share/documents.zip">D
 
 ## 1. Le web
 
-  > Le World Wide Web (WWW), littéralement la « toile (d’araignée) mondiale » communément appelé le Web, et parfois la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles  
+  > Le World Wide Web (WWW), littéralement la « toile (d’araignée) mondiale » communément appelé le Web, et parfois la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles
   **-Wikipedia-**
 
 Le web est caractérisé par le protocole http (Hyper text transfert protocole). Une URL (pour Uniform Resource Locator, signifiant littéralement « localisateur de ressource uniforme ») est une chaîne de caractères décrivant l’emplacement d’une ressource.
@@ -36,7 +36,7 @@ Le web est caractérisé par le protocole http (Hyper text transfert protocole).
 *Exemple classique*
 
 ```
-|-- Documents  
+|-- Documents
     |-- choré-spectacle.docx
     |-- IMG_9128.JPG
     |-- image234.jpeg
@@ -90,7 +90,7 @@ Le texte représente le contenu le plus courant sur le web, mais aussi le plus r
 
 En passant par un moteur de recherche les utilisateurs passent par l'écriture d'une recherche textuelle. Les résultats vont faire apparaître selon la pertinence du nom de la page, de sa description, de son contenu et des contenus alternatifs servant à décrire les médias.
 
-Les moteurs de recherche utilisent les régles élémentaires pour indexer les pages. Une page est constituée : 
+Les moteurs de recherche utilisent les règles élémentaires pour indexer les pages. Une page est constituée :
 
 - d'un titre
 - d'une description
@@ -111,14 +111,18 @@ Les images sont insérées dans une page web par l'appel à une ressource extern
 
 `<img src="le_chemin_de_limage.jpg" alt="Description de l’image">`
 
-Chaque appel à une image sur une page web représente un appel HTTP et un coût en temps de chargement correspondant au poids de l'image. Plus une image est lourde plus le temps de chargement d'une page est long. Une page web ne doit pas exéder idéalement 1Mb.
+Chaque appel à une image sur une page web représente un appel HTTP et un coût en temps de chargement correspondant au poids de l'image. Plus une image est lourde plus le temps de chargement d'une page est long. Une page web ne doit pas excéder idéalement 1Mb.
 
-Voici un exemple de code pour gérer l'affichage d’une image adaptée pour différentes tailles d'écrans. On charge un image de résolution différente en fonction de la dimension de l'écran. 
+Voici un exemple de code pour gérer l'affichage d’une image adaptée pour différentes tailles d'écrans. On charge un image de résolution différente en fonction de la dimension de l'écran.
 `<img src="default.png" srcset="small.png 320w, medium.png 640w, large.png 1024w, xl.png 1920w" sizes="(min-width:20em) and (max-width:50em) 20em, (min-width:50em) and (max-width:80em) 40em, (min-width:40em) 10em" alt="Test" />`
+
+**Droits à l'image**
+
+
 
 ### Les audios
 
-Les contenus audios sont beaucoup consommés sur le webs sous forme de musique. Néanmoins, ils ne sont pas assez utlisé au regard de la consommation de vidéos.
+Les contenus audios sont beaucoup consommés sur le webs sous forme de musique. Néanmoins, ils ne sont pas assez utilisé au regard de la consommation de vidéos.
 
 Il est possible de mettre en ligne de fichier assez long et pourtant très léger (pour de la voix ou un besoin qualitatif réduit).
 
@@ -143,11 +147,11 @@ Une vidéo "streamée" est téléchargée par le navigateur pour être lue par l
 
 **Mais avec les soucis de copyright sur les formats, nous devons appeler plusieurs formats différents.**
 
-`<video width="400" height="222" controls="controls">`  
-  `<source src="video.mp4" type="video/mp4" />`  
-  `<source src="video.webm" type="video/webm" />`    
-  `<source src="video.ogv" type="video/ogg" />`  
-  `Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.`  
+`<video width="400" height="222" controls="controls">`
+  `<source src="video.mp4" type="video/mp4" />`
+  `<source src="video.webm" type="video/webm" />`
+  `<source src="video.ogv" type="video/ogg" />`
+  `Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.`
 `</video>`
 
 
