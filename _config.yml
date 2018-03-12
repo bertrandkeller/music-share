@@ -1,7 +1,7 @@
 # Site settings
 title: "Music Share"
-email: 
-description: 
+email:
+description:
 
 baseurl: ""
 url: "https://bertrandkeller.github.io/music-share"
@@ -42,7 +42,7 @@ assets:
     css: true
     js: true
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-assets

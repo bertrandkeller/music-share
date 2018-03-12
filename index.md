@@ -3,11 +3,11 @@ layout: default
 title: Accueil
 ---
 
-Liens vers le cours
-    https://bertrandkeller.github.io/music-share/
-    https://bertrandkeller.github.io/music-share/plan.html
-
 <div class="wrapper">
+  Liens vers le cours<br>
+  https://bertrandkeller.github.io/music-share/<br>
+  https://bertrandkeller.github.io/music-share/plan.html<br>
+  https://bertrandkeller.github.io/music-share/edition.html
 
   <h2 id="textes">Textes</h2>
   {% for image in site.static_files %}
